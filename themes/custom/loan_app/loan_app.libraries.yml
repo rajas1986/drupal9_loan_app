@@ -1,0 +1,56 @@
+global_styling:
+  version: 1.x
+  js:
+    js/bootstrap.min.js: {}
+    js/slick.min.js: {}
+    js/custom.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+  css:
+    theme:
+      css/bootstrap.min.css: {}
+      css/font-awesome.min.css: {}
+      css/slick.css: {}
+
+home_assets_attachments:
+  version: 1.x
+  css:
+    theme:
+      css/home.css: {}
+      css/responsive.css: {}
+
+lender_assets_attachments:
+  version: 1.x
+  css:
+    theme:
+      css/lender.css: {}
+      css/responsive.css: {}
+
+borrower_assets_attachments:
+  version: 1.x
+  css:
+    theme:
+      css/borrower.css: {}
+      css/responsive.css: {}
+
+about_us_assets_attachments:
+  version: 1.x
+  css:
+    theme:
+      css/about-us.css: {}
+      css/responsive.css: {}
+
+contact_us_assets_attachments:
+  version: 1.x
+  css:
+    theme:
+      css/contact-us.css: {}
+      css/responsive.css: {}
+
+legal_assets_attachments:
+  version: 1.x
+  css:
+    theme:
+      css/legal.css: {}
+      css/responsive.css: {}
